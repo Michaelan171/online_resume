@@ -35,12 +35,10 @@ def profile_page(info, work):
             st.markdown(f'''**{info['certification'][0]}:**''')
             google_certificate = st.button(info['certification'][1])
             if google_certificate:
-                web_controller = webbrowser.get(using=None)
-                web_controller.open_new_tab(info['certification'][2])
+                webbrowser.open_new(info['certification'][2])
             tesol_certificate = st.button(info['certification'][3])
             if tesol_certificate:
-                web_controller = webbrowser.get(using=None)
-                web_controller.open_new_tab(info['certification'][4])
+                webbrowser.open_new(info['certification'][4])
 
             # technic skills
             st.markdown(f'''**{info['tech_skills'][0]}:**''')
