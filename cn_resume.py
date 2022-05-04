@@ -27,24 +27,30 @@ def profile_page(info, work):
             ''', unsafe_allow_html=True)
             # education
             st.markdown(f'''**{info['education'][0]}:**''')
-            st.success(f'''
-                   - {info['education'][1]}
-                   - {info['education'][2]}
-                    ''')
+            st.info(f'''
+                - {info['education'][1]}
+                - {info['education'][2]}
+            ''')
             # certificates
             st.markdown(f'''**{info['certification'][0]}:**''')
-            google_certificate = st.button(info['certification'][1])
-            if google_certificate:
-                webbrowser.open_new(info['certification'][2])
-            tesol_certificate = st.button(info['certification'][3])
-            if tesol_certificate:
-                webbrowser.open_new(info['certification'][4])
+            st.markdown(f'''
+                [{info['certification'][1]}]({info['certification'][2]})
+            ''')
+            st.markdown(f'''
+                [{info['certification'][3]}]({info['certification'][4]})
+                        ''')
+            # google_certificate = st.button(info['certification'][1])
+            # if google_certificate:
+            #     webbrowser.open_new(info['certification'][2])
+            # tesol_certificate = st.button(info['certification'][3])
+            # if tesol_certificate:
+            #     webbrowser.open_new(info['certification'][4])
             # technic skills
             st.markdown(f'''**{info['tech_skills'][0]}:**''')
             st.info(info['tech_skills'][1])
             # language skills
             st.markdown(f'''**{info['language_skills'][0]}:**''')
-            st.error(info['language_skills'][1])
+            st.info(info['language_skills'][1])
 
         with col2:
             # 年度调整
