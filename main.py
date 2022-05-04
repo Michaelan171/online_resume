@@ -1,8 +1,7 @@
-import streamlit as st
-
-# Custom imports 
+# Custom imports
+import cn_resume
+import en_resume
 from multipage import MultiPage
-import cn_resume, en_resume
 
 # Create an instance of the app 
 app = MultiPage()

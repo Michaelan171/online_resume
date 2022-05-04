@@ -125,7 +125,7 @@ work_experiences_en = {
                    ':black_small_square: Coordinated work between other IT departments and users. <br>'
                    ':black_small_square: Wrote reports, optimization solutions and technical documents.'],
     'fifth_exp': ['LOYAL WEALTH (09/2015-03/2016) Shanghai,CN',
-                  ':man_in_business_suit_levitating: *PE Fund Sales * <br>'
+                  ':man_in_business_suit_levitating: *PE Fund Sales* <br>'
                   ':black_small_square: Phoned and visited customers to seek demands.<br>'
                   ':black_small_square: Found out high-quality customers and recommended suitable private equity '
                   'products. <br> '
