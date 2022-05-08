@@ -114,7 +114,7 @@ work_experiences_en = {
                   ':black_small_square: Coordinated with client and lawyer to find the best executable plan for the '
                   'case. <br> '
                   ':black_small_square: Accompanied clients to court and interpreted for them.'],
-    'fourth_exp': ['FAURECIA (China) (07/2014-07/2015) Shanghai,CN',
+    'fourth_exp': ['Faurecia (China) (07/2014-07/2015) Shanghai,CN',
                    ':man_in_business_suit_levitating: *Asia Helpdesk Engineer* <br>'
                    ':black_small_square: Belongs to the category of Level 1 in IT technical support chain, provided '
                    'technical support for users in South Korea, Japan, Thailand, India, Malaysia and China. <br> '
@@ -137,8 +137,8 @@ work_experiences_en = {
     'seventh_exp': ['DailyEdu (06/2018-present) Shanghai,CN',
                     ':man_in_business_suit_levitating: *Department Manager / Trainer / Courseware Designer / Product '
                     'Designer / Data Analyst* <br> '
-                    ':black_small_square: According to the market demand, I designed and produced a systemmatical '
-                    'English course, over 330 classes, with the teaching team, including fixed, pre-selectied, '
+                    ':black_small_square: According to the market demand, I designed and produced a systematical '
+                    'English course, over 330 classes, with the teaching team, including fixed, pre-selected, '
                     'group class and other online learning modes. <br> '
                     ':black_small_square: Led a team of part-time teachers to produce a series of industry courses, '
                     'including automotive, medical, mechanical, marketing, etc., with about 328 classes <br> '
