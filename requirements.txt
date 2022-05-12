@@ -1,3 +1,6 @@
 streamlit==1.8.1
-pandas==1.3.5
+pandas==1.4.2
 Pillow==9.1.0
+yfinance==0.1.70
+cufflinks==0.17.3
+stocksymbol==0.0.5
